@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+    本文件通过res->drawable右键New->File建立。
+-->
+
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--获得焦点-->
+    <item android:state_focused="true"
+          android:drawable="@drawable/shape_btn"/>
+
+    <!--按键按下-->
+    <item android:state_pressed="true"
+          android:drawable="@drawable/shape_btn"/>
+
+</selector>
