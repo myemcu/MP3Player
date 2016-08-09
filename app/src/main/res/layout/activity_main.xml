@@ -61,6 +61,5 @@
                 android:id="@+id/author"/>
         </LinearLayout>
 
-
     </LinearLayout>
 </LinearLayout>
