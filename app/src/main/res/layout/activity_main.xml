@@ -24,6 +24,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/stop"
+            android:background="@drawable/selector_btn"
             android:src="@drawable/stop"
             />
 
@@ -31,11 +32,12 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@drawable/play"
+            android:background="@drawable/selector_btn"
             android:id="@+id/play"/>
 
         <LinearLayout
             android:orientation="vertical"
-            android:layout_marginLeft="40dp"
+            android:layout_marginLeft="10dp"
             android:layout_width="wrap_content"
             android:layout_height="match_parent">
 
@@ -43,7 +45,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
-                android:textSize="30sp"
+                android:textSize="10pt"
                 android:textColor="#ffffff"
                 android:text="曲目"
                 android:layout_weight="1"
@@ -53,7 +55,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textSize="30sp"
+                android:textSize="10pt"
                 android:textColor="#ffffff"
                 android:text="歌手"
                 android:layout_weight="1"
@@ -61,5 +63,31 @@
                 android:id="@+id/author"/>
         </LinearLayout>
 
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="上一首"
+            android:textStyle="bold"
+            android:textColor="#259c04"
+            android:textSize="10pt"
+            android:layout_weight="1"
+            android:id="@+id/prev"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="下一首"
+            android:textStyle="bold"
+            android:textColor="#259c04"
+            android:textSize="10pt"
+            android:layout_weight="1"
+            android:id="@+id/next"/>
     </LinearLayout>
 </LinearLayout>
